@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', backgroundColor: '#f8f9fa' }}>
       <div>
-        <h1>Mi Tienda</h1> {/* Logo */}
+        <img src="/logo.png" alt="Logo de la tienda" style={{ height: '40px' }} /> {/* Logo */}
       </div>
       <div>
         <a href="#home" style={{ margin: '0 10px' }}>Inicio</a>
